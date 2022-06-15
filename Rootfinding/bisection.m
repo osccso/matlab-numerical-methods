@@ -40,7 +40,7 @@ while ~found
         return
     end
     %calculate errors
-    er = abs(xr-xold)/xr;
+    er = abs((xr-xold)/xr);
     ea = abs(xr-xold);
     disp(er)
     %check flag and exit condition
