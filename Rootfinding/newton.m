@@ -15,5 +15,6 @@ while ~found
     if er<err
         return
     end
+    x0 = xr
     n=n+1;
 end
